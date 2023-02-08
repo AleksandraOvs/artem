@@ -1,0 +1,13 @@
+<?php
+/*
+ * Template name: Frontpage
+ */
+
+ get_header();
+
+ get_template_part('parts/hero_slider');
+ get_template_part('parts/about_us');
+ get_template_part('parts/location');
+ get_template_part('parts/product_slider');
+ get_template_part('parts/about_company');
+ ?>
